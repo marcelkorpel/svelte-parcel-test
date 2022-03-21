@@ -1,0 +1,6 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+
+  "include": ["assets/src/**/*"],
+  "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sveltest",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel watch --public-url / --dist-dir ./public/ ./assets/index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.3.2",
+    "@tsconfig/svelte": "^3.0.0",
+    "parcel": "^2.3.2",
+    "parcel-transformer-svelte3-plus": "^0.2.3",
+    "sass": "^1.49.9",
+    "svelte": "^3.46.4",
+    "svelte-preprocess": "^4.10.4",
+    "typescript": "^4.6.2"
+  }
+}
